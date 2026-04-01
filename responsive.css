@@ -1,0 +1,38 @@
+/* Responsive styles for hero name container and profile image */
+@media (max-width: 768px) {
+  .hero-name-container {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .hero-name {
+    font-size: 3.2rem;
+  }
+
+  .profile-img,
+  .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+
+  .placeholder-icon {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 2.8rem;
+  }
+
+  .profile-img,
+  .profile-placeholder {
+    width: 180px;
+    height: 180px;
+  }
+
+  .placeholder-icon {
+    font-size: 3rem;
+  }
+}
